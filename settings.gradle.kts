@@ -15,3 +15,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "AndroidMultiModuleStudy"
 include(":app")
+include(":presentation")
+include(":data")
+include(":domain")
