@@ -1,9 +1,25 @@
 [versions]
 kotlin = "1.9.0"
+corektx = "1.8.0"
+appcompat = "1.6.1"
+material = "1.9.0"
+junit = "4.13.2"
+testext = "1.1.5"
+testespresso = "3.5.1"
 coroutine = "1.7.3"
 
 [libraries]
 kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib-jdk8", version.ref = "kotlin" }
+core-ktx = { module = "androidx.core:core-ktx", version.ref = "corektx" }
+appcompat-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+material-material = { module = "com.google.android.material:material", version.ref = "material" }
+junit-junit = { module = "junit:junit", version.ref = "junit" }
+test-ext = { module = "androidx.test.ext:junit", version.ref = "testext"}
+test-espresso = { module = "androidx.test.espresso:espresso-core", version.ref = "testespresso"}
+
+
+
 
 [bundles]
 kotlin = ["kotlin-stdlib"]
+test = ["test-ext", "test-espresso"]
