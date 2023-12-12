@@ -1,4 +1,7 @@
 package com.example.androidmultimodulestudy
 
-class MyApplication {
+import android.app.Application
+
+class MyApplication: Application() {
+
 }
