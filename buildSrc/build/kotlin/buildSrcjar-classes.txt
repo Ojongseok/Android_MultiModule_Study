@@ -1,0 +1,1 @@
+/Users/jongseok/AndroidStudioProjects/AndroidMultiModuleStudy/buildSrc/build/classes/kotlin/main/Configuration.class:/Users/jongseok/AndroidStudioProjects/AndroidMultiModuleStudy/buildSrc/build/classes/kotlin/main/Libraries.class:/Users/jongseok/AndroidStudioProjects/AndroidMultiModuleStudy/buildSrc/build/classes/kotlin/main/Versions.class

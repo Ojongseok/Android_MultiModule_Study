@@ -1,0 +1,9 @@
+[versions]
+kotlin = "1.9.0"
+coroutine = "1.7.3"
+
+[libraries]
+kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib-jdk8", version.ref = "kotlin" }
+
+[bundles]
+kotlin = ["kotlin-stdlib"]
